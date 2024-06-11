@@ -1,0 +1,14 @@
+.navbar, .nav-item a {
+    font-family: "Nosifer", sans-serif;
+    color: red;
+}
+h1{
+    font-family: "Nosifer", sans-serif;
+    color: red;
+}
+.details{
+    color: white;
+}
+span{
+    color: red;
+}
