@@ -8,7 +8,18 @@ h1{
 }
 .details{
     color: white;
+    margin-bottom: 200px;
 }
 span{
     color: red;
+    margin-bottom: 200px;
+}
+.navbar-brand img{
+    height: 100px;
+}
+.col-md-6 img{
+    height: 450px;
+}
+p{
+    color: aqua;
 }
