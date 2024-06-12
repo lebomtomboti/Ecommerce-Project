@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>products</title>
 </head>
-<body>
-    <div>
+<body class="products">
+  <div class="dropdown">
+    <button class="dropbtn">Category
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Fitness</a>
+      <a href="#">Weight</a>
+      <a href="#">Cardio</a>
+    </div>
+  </div> 
+</div>
         <input type="text" name="" id="Search" placeholder="Search for products here"><button>Search</button>
     </div>
-    <br>
-    <br>
-    <table border="1">
-        <thead>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Category</th>
-        </thead>
-        <tbody>
-
-        </tbody>
-    </table>
+    <div class="card-container">
+        </div>
+      </div>
+  </div>
+  <button type="button" class="btn btn-danger">Add To Cart</button>
     <script src="/script/Products.js"></script>
 </body>
 </html>
