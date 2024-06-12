@@ -1,0 +1,25 @@
+.navbar, .nav-item a {
+    font-family: "Nosifer", sans-serif;
+    color: red;
+}
+h1{
+    font-family: "Nosifer", sans-serif;
+    color: red;
+}
+.details{
+    color: white;
+    margin-bottom: 200px;
+}
+span{
+    color: red;
+    margin-bottom: 200px;
+}
+.navbar-brand img{
+    height: 100px;
+}
+.col-md-6 img{
+    height: 450px;
+}
+p{
+    color: aqua;
+}
