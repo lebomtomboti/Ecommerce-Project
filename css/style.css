@@ -79,3 +79,37 @@ p{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  
+
+/* Navbar styles */
+.navbar {
+  background-color: red; 
+}
+
+.navbar-brand img {
+  max-width: 200px; 
+}
+
+.nav-link {
+  color: red; 
+}
+
+/* Main content styles */
+body {
+  background-color: black; 
+  color: red; 
+}
+
+.container-fluid {
+  padding-right: 0; 
+  padding-left: 0; 
+}
+
+/* Footer styles */
+footer {
+  background-color: #212529; 
+  color: white; 
+  padding: 10px 0; 
+}
+
