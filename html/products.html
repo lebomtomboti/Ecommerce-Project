@@ -7,24 +7,51 @@
     <title>products</title>
 </head>
 <body class="products">
-  <div class="dropdown">
-    <button class="dropbtn">Category
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Fitness</a>
-      <a href="#">Weight</a>
-      <a href="#">Cardio</a>
-    </div>
-  </div> 
-</div>
-        <input type="text" name="" id="Search" placeholder="Search for products here"><button>Search</button>
-    </div>
-    <div class="card-container">
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://i.ibb.co/Lkb8s0q/logo-removebg-preview.png" alt="logo-removebg-preview"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/checkout.html">Checkout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/admin.html">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-  </div>
-  <button type="button" class="btn btn-danger">Add To Cart</button>
+    </nav>
+
+    <div class="dropdown">
+        <button class="dropbtn">Category
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Fitness</a>
+            <a href="#">Weight</a>
+            <a href="#">Cardio</a>
+        </div>
+    </div>
+    <input type="text" name="" id="Search" placeholder="Search for products here"><button>Search</button>
+    <div class="card-container">
+    </div>
+    <button type="button" class="btn btn-danger">Add To Cart</button>
     <script src="/script/Products.js"></script>
 </body>
 </html>
