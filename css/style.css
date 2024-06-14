@@ -128,4 +128,40 @@ p{
     cursor: pointer;
     transition: background-color 0.3s;
   }
+  .form-horizontal {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;  
+    border-radius: 10px;
+  }
   
+  
+  .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  
+  textarea.form-control {
+    resize: vertical; 
+  }
+  
+ 
+  .send-button {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #343a40; 
+    color: #ffffff; 
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-button:hover {
+    background-color: #23272b; 
+  }
+  
+  
+  .bi-send {
+    margin-right: 5px; 
+  }
