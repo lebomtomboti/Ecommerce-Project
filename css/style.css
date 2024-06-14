@@ -23,3 +23,11 @@ span{
 p{
     color: white;
 }
+.navbar {
+  background-color: red;
+}
+
+/* Change the background color to black on hover */
+.navbar:hover {
+  background-color: black;
+}
