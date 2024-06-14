@@ -37,6 +37,18 @@ let Products = JSON.parse(localStorage.getItem("products"))
             Description:'Counts each jump so you can keep pushing yourself with each training session, making it ideal for cardio training',
             Price: 50000, 
             Category: 'Cardio'}
+            { name:'Ball',
+             Image: 'https://lebomtomboti.github.io/EcomPictures/Screenshot%202024-06-14%20135639.png' ,
+             Description: 'Basketball',
+             Price: 100,
+             Category: 'Ball'
+            }
+            { Name: 'Ball',
+              Image: 'https://lebomtomboti.github.io/EcomPictures/Screenshot%202024-06-14%20135550.png',
+              Description: 'Gyming ball',
+              Price: 200,
+              Category: 'Ball'
+            }
       ])
     );
 // Display Data
