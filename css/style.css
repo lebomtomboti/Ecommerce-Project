@@ -76,6 +76,19 @@ p{
 p{
     color: white;
 }
+.fitness{
+
+
+     text-align: center;
+     margin: 0 auto; 
+     max-width: 800px; 
+     padding: 20px; 
+     color: #ffffff; 
+     font-family: Arial, sans-serif; 
+     font-size: 18px; 
+     line-height: 1.6;
+  }
+
 
 .dropdown {
     float: right;
