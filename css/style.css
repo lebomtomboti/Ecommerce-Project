@@ -80,9 +80,6 @@ p{
     display: block;
   }
 
-  
-
-/* Navbar styles */
 .navbar {
   background-color: red; 
 }
@@ -95,7 +92,6 @@ p{
   color: red; 
 }
 
-/* Main content styles */
 body {
   background-color: black; 
   color: red; 
@@ -106,13 +102,40 @@ body {
   padding-left: 0; 
 }
 
-/* Footer styles */
 footer {
   background-color: #212529; 
-  color: white; 
-  padding: 10px 0; 
+  color: red; 
+  padding: 10px 0;
 }
-body{
-  background-color: black;
+
+.navbar-nav .nav-link {
+    color:red; 
+    transition: color 0.3s; 
 }
+
+.navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item:hover {
+    background-color: red; 
+}
+#ProductCard {
+    width: 200px;
+    height: 410px;
+  }
+  
+  #Product-Card {
+    width: 200px;
+    height: 410px;
+    margin-bottom: 32px;
+  }
+  
+  .card-img-top {
+    height: 300px;
+  }
+
+
+
 

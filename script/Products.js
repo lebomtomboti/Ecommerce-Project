@@ -1,8 +1,7 @@
-// current year footer
 let CurrentYear = new Date(Date.now());
 let year = CurrentYear.getFullYear();
 document.getElementById("CurrYear").innerHTML = year;
-// Sample data for products saved in local storage
+
 let Products = JSON.parse(localStorage.getItem("products"))
   ? JSON.parse(localStorage.getItem("products"))
   : localStorage.setItem(
@@ -10,12 +9,12 @@ let Products = JSON.parse(localStorage.getItem("products"))
       JSON.stringify([
         { Name: 'Boxing Gloves',
              Image:'https://lebomtomboti.github.io/EcomPictures/Screenshot%202024-06-11%20202103.png',
-             Description:'The Everlast Prostyle 2 Boxing Glove is made from high-quality synthetic leather, ensuring long-lasting durability and performance.',
+             Description:'The Everlast Prostyle 2 Boxing Glove is made from high-quality synthetic leather.',
              Price: '649.99',
               Category: 'Fitness'},
         { Name: 'Spin Bike',
              Image:'https://lebomtomboti.github.io/EcomPictures/Screenshot%202024-06-11%20211731.png',
-             Description:'Designed with a range of functions such as speed, time, distance and calories burnt, the Everlast Fluid Exercise Spin Bike helps to maximise fat burning while providing a fluid ride with its 10kg flywheel.',
+             Description:'Designed with a range of functions such as speed, time, distance and calories burnt.',
              Price: 4999.00,
               Category: 'Fitness'},
         { Name: 'Punching Bag', 
@@ -34,16 +33,16 @@ let Products = JSON.parse(localStorage.getItem("products"))
             Category: 'Weight'},
         { Name: 'Digital Counter Jump Rope',
             Image:'https://lebomtomboti.github.io/EcomPictures/Screenshot%202024-06-11%20212324.png',
-            Description:'Counts each jump so you can keep pushing yourself with each training session, making it ideal for cardio training',
+            Description:'Counts each jump so you can keep pushing yourself with each training session.',
             Price: 50000, 
-            Category: 'Cardio'}
+            Category: 'Fitness'}
       ])
     );
-// Display Data
+
 let items = document.querySelector("[data-items]");
 items.innerHTML = "";
 if (Products) {
-  // Loop through products array
+  
   Products.forEach((Product) => {
     items.innerHTML += `
       <div class="card mx-4 mt-3 text-center" id="ProductCard">
@@ -57,7 +56,7 @@ if (Products) {
       </div>`;
   });
 }
-// Add To Cart
+
 let emptyArray = JSON.parse(localStorage.getItem("checkout")) || [];
 function addToCart(item) {
   if (item) {
