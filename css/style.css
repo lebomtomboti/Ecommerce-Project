@@ -191,7 +191,68 @@ footer {
   .card-img-top {
     height: 300px;
   }
-
+  .half {
+    width: calc(50% - 10px);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .form-horizontal {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;  
+    border-radius: 10px;
+  }
+  
+  
+  .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  
+  textarea.form-control {
+    resize: vertical; 
+  }
+  
+ 
+  .send-button {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #343a40; 
+    color: #ffffff; 
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-button:hover {
+    background-color: #23272b; 
+  }
+  
+  
+  .bi-send {
+    margin-right: 5px; 
+  }
 
 
 
