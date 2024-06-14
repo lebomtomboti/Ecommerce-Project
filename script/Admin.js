@@ -2,10 +2,9 @@ let Products = JSON.parse(localStorage.getItem("products")) || [];
 let ProductsTable = document.getElementById("Products-data");
 let allProducts = Object.groupBy(Products, (item) => item.id);
 
-// Display the cart
 ProductsTable.innerHtml = " ";
 if (allProducts) {
-  // Loop through products array
+
   for (let key in allProducts) {
     ProductsTable.innerHTML += `
     
@@ -74,25 +73,24 @@ Delete
   }
 }
 
-// Sort by Product Price
 let sortBtn = document.getElementById("sort-btn");
 sortBtn.addEventListener("click", () => {
   let sortedItems = Products.sort((arg1, arg2) => {
-    if (+arg1.amount < +arg2.amount) {
-      return -1;
-    } else if (arg1.amount > arg2.amount) {
+   if (+arg1.amount < +arg2.amount) {
+    return -1;
+  } else if (arg1.amount > arg2.amount) {
       return 1;
-    } else {
+   } else {
       return 0;
-    }
-  });
+   }
+ });
   ProductsTable.innerHtml = " ";
   if (sortedItems) {
     ProductsTable.innerHTML = " ";
     sortedItems.forEach((sortedItems) => {
       ProductsTable.innerHTML += `
       
-      <tr>
+     <tr>
       <th scope="row">${sortedItems.id}</th>
       <td>${sortedItems.Description}</td>
       <td>
@@ -158,7 +156,7 @@ sortBtn.addEventListener("click", () => {
   }
 });
 
-// Add Product
+
 let addProducts = document.getElementById("Add-btn");
 function newProducts() {
   let description = document.getElementById("newDec").value;
@@ -176,7 +174,7 @@ function newProducts() {
   localStorage.setItem("products", JSON.stringify(Products));
   ProductsTable.innerHtml = " ";
   if (Products) {
-    // Loop through products array
+    
     for (let key in Products) {
       ProductsTable.innerHTML += `
     
@@ -247,7 +245,6 @@ Delete
 }
 addProducts.addEventListener("click", newProducts);
 
-// current year footer
 CurrentYear = new Date(Date.now());
 let year = CurrentYear.getFullYear();
 document.getElementById("CurrYear").innerHTML = year;
