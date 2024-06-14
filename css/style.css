@@ -137,5 +137,226 @@ footer {
   }
 
 
+  .navbar, .nav-item a {
+    font-family: "Nosifer", sans-serif;
+    color: red;
+  }
+  h1{
+    font-family: "Nosifer", sans-serif;
+    color: red;
+  }
+  .details{
+    color: white;
+    margin-bottom: 200px;
+  }
+  span{
+    color: red;
+    margin-bottom: 200px;
+  }
+  .navbar-brand img{
+    height: 100px;
+  }
+  .col-md-6 img{
+    height: 450px;
+  }
+  p{
+    color: white;
+  }
+  .navbar-nav .nav-link {
+      color: red;
+      transition: color 0.3s;
+  }
+  .navbar-nav .nav-link:hover {
+      color: black;
+  }
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-item:hover {
+      background-color: red;
+  }
+  .navbar, .nav-item a {
+      font-family: "Nosifer", sans-serif;
+      color: red;
+  }
+  h1{
+      font-family: "Nosifer", sans-serif;
+      color: red;
+  }
+  .details{
+      color: white;
+      margin-bottom: 200px;
+  }
+  span{
+      color: red;
+      margin-bottom: 200px;
+  }
+  .navbar-brand img{
+      height: 100px;
+  }
+  .col-md-6 img{
+      height: 450px;
+  }
+  p{
+      color:black;
+  }
+  .card{
+      width: 18rem;
+  }
+  .products{
+      background-color: black;
+  }
+  p{
+      color: white;
+  }
+  .dropdown {
+      float: right;
+      overflow: hidden;
+    }
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #F9F9F9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  .navbar {
+    background-color: red;
+  }
+  .navbar-brand img {
+    max-width: 200px;
+  }
+  .nav-link {
+    color: red;
+  }
+  body {
+    background-color: black;
+    color: red;
+  }
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  footer {
+    background-color: #212529;
+    color: red;
+    padding: 10px 0;
+  }
+  .navbar-nav .nav-link {
+      color:red;
+      transition: color 0.3s;
+  }
+  .navbar-nav .nav-link:hover {
+      color: black;
+  }
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-item:hover {
+      background-color: red;
+  }
+  #ProductCard {
+      width: 200px;
+      height: 410px;
+    }
+    #Product-Card {
+      width: 200px;
+      height: 410px;
+      margin-bottom: 32px;
+    }
+    .card-img-top {
+      height: 300px;
+    }
+  
+  [data-items] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+ 
+  .card-text.mt-2 {
+    font-size: 1.2rem;
+    color: #000;
+  }
+  
+  .btn-dark {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .btn-dark:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: red;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+
 
 
